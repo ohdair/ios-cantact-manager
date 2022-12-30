@@ -14,6 +14,7 @@ enum ContactManagerError: Error {
     case invalidName
     case invalidAge
     case invalidPhoneNumber
+    case excludeContact(name: String)
 }
 
 extension ContactManagerError: LocalizedError {
@@ -31,6 +32,8 @@ extension ContactManagerError: LocalizedError {
             return "입력한 나이정보가 잘못되었습니다. 입력 형식을 확인해주세요."
         case .invalidPhoneNumber:
             return "입력한 연락처정보가 잘못되었습니다. 입력 형식을 확인해주세요."
+        case .excludeContact(let name):
+            return "연락처에 \(name) 이(가) 없습니다."
         }
     }
 }
