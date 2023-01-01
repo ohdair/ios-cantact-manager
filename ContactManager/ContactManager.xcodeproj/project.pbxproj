@@ -14,8 +14,8 @@
 		90D3F1E1295417EB00CEA3F8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D3F1A02952DA1800CEA3F8 /* Message.swift */; };
 		90D3F236295D310600CEA3F8 /* ContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D3F235295D310600CEA3F8 /* ContactManager.swift */; };
 		90D3F237295D310600CEA3F8 /* ContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D3F235295D310600CEA3F8 /* ContactManager.swift */; };
-		90D3F239295D324D00CEA3F8 /* GetContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D3F238295D324D00CEA3F8 /* GetContact.swift */; };
-		90D3F23A295D324D00CEA3F8 /* GetContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D3F238295D324D00CEA3F8 /* GetContact.swift */; };
+		90D3F239295D324D00CEA3F8 /* CreateContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D3F238295D324D00CEA3F8 /* CreateContact.swift */; };
+		90D3F23A295D324D00CEA3F8 /* CreateContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D3F238295D324D00CEA3F8 /* CreateContact.swift */; };
 		90D3F248295E57EC00CEA3F8 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D3F247295E57EC00CEA3F8 /* Contact.swift */; };
 		90D3F249295E57EC00CEA3F8 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D3F247295E57EC00CEA3F8 /* Contact.swift */; };
 		BFCB3448295AC82D00B5C55C /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB3447295AC82D00B5C55C /* Error.swift */; };
@@ -36,13 +36,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		90D3F1962952D18800CEA3F8 /* CantactManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CantactManager; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D3F1962952D18800CEA3F8 /* ContactManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ContactManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D3F1992952D18800CEA3F8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		90D3F1A02952DA1800CEA3F8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		90D3F1D92954178900CEA3F8 /* ContactManagerTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactManagerTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D3F1DB2954178900CEA3F8 /* ContactManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManagerTest.swift; sourceTree = "<group>"; };
 		90D3F235295D310600CEA3F8 /* ContactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManager.swift; sourceTree = "<group>"; };
-		90D3F238295D324D00CEA3F8 /* GetContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetContact.swift; sourceTree = "<group>"; };
+		90D3F238295D324D00CEA3F8 /* CreateContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateContact.swift; sourceTree = "<group>"; };
 		90D3F247295E57EC00CEA3F8 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		BFCB3447295AC82D00B5C55C /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		BFCB344C295ACFC100B5C55C /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		90D3F1972952D18800CEA3F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90D3F1962952D18800CEA3F8 /* CantactManager */,
+				90D3F1962952D18800CEA3F8 /* ContactManager */,
 				90D3F1D92954178900CEA3F8 /* ContactManagerTest.xctest */,
 			);
 			name = Products;
@@ -92,7 +92,7 @@
 				90D3F1A02952DA1800CEA3F8 /* Message.swift */,
 				BFCB3447295AC82D00B5C55C /* Error.swift */,
 				90D3F235295D310600CEA3F8 /* ContactManager.swift */,
-				90D3F238295D324D00CEA3F8 /* GetContact.swift */,
+				90D3F238295D324D00CEA3F8 /* CreateContact.swift */,
 				90D3F247295E57EC00CEA3F8 /* Contact.swift */,
 			);
 			path = ContactManager;
@@ -109,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90D3F1952952D18800CEA3F8 /* CantactManager */ = {
+		90D3F1952952D18800CEA3F8 /* ContactManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90D3F19D2952D18800CEA3F8 /* Build configuration list for PBXNativeTarget "CantactManager" */;
+			buildConfigurationList = 90D3F19D2952D18800CEA3F8 /* Build configuration list for PBXNativeTarget "ContactManager" */;
 			buildPhases = (
 				BFF2FF582952E86E00DD88E4 /* Run Script */,
 				90D3F1922952D18800CEA3F8 /* Sources */,
@@ -122,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = CantactManager;
+			name = ContactManager;
 			productName = CantactManager;
-			productReference = 90D3F1962952D18800CEA3F8 /* CantactManager */;
+			productReference = 90D3F1962952D18800CEA3F8 /* ContactManager */;
 			productType = "com.apple.product-type.tool";
 		};
 		90D3F1D82954178900CEA3F8 /* ContactManagerTest */ = {
@@ -175,7 +175,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90D3F1952952D18800CEA3F8 /* CantactManager */,
+				90D3F1952952D18800CEA3F8 /* ContactManager */,
 				90D3F1D82954178900CEA3F8 /* ContactManagerTest */,
 			);
 		};
@@ -220,7 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D3F248295E57EC00CEA3F8 /* Contact.swift in Sources */,
-				90D3F239295D324D00CEA3F8 /* GetContact.swift in Sources */,
+				90D3F239295D324D00CEA3F8 /* CreateContact.swift in Sources */,
 				90D3F19A2952D18800CEA3F8 /* main.swift in Sources */,
 				BFCB3448295AC82D00B5C55C /* Error.swift in Sources */,
 				90D3F1A12952DA1800CEA3F8 /* Message.swift in Sources */,
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D3F237295D310600CEA3F8 /* ContactManager.swift in Sources */,
-				90D3F23A295D324D00CEA3F8 /* GetContact.swift in Sources */,
+				90D3F23A295D324D00CEA3F8 /* CreateContact.swift in Sources */,
 				BFCB3449295AC82D00B5C55C /* Error.swift in Sources */,
 				90D3F1E1295417EB00CEA3F8 /* Message.swift in Sources */,
 				90D3F1E0295417E800CEA3F8 /* main.swift in Sources */,
@@ -416,7 +416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90D3F19D2952D18800CEA3F8 /* Build configuration list for PBXNativeTarget "CantactManager" */ = {
+		90D3F19D2952D18800CEA3F8 /* Build configuration list for PBXNativeTarget "ContactManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90D3F19E2952D18800CEA3F8 /* Debug */,

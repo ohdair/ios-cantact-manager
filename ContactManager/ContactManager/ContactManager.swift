@@ -57,6 +57,9 @@ struct ContactManager {
         guard let contact = try createContact() else {
             return
         }
+        guard self.contacts.contains(where: { $0.phoneNumber == contact.phoneNumber }) == false else {
+            throw ContactManagerError.existContact
+        }
         Message.inputContact(contact: contact).printSelf()
         self.contacts.insert(contact)
     }

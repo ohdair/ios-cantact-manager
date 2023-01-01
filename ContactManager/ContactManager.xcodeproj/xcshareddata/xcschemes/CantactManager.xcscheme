@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "90D3F1952952D18800CEA3F8"
-               BuildableName = "CantactManager"
-               BlueprintName = "CantactManager"
+               BuildableName = "ContactManager"
+               BlueprintName = "ContactManager"
                ReferencedContainer = "container:ContactManager.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "90D3F1952952D18800CEA3F8"
-            BuildableName = "CantactManager"
-            BlueprintName = "CantactManager"
+            BuildableName = "ContactManager"
+            BlueprintName = "ContactManager"
             ReferencedContainer = "container:ContactManager.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -63,8 +63,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "90D3F1952952D18800CEA3F8"
-            BuildableName = "CantactManager"
-            BlueprintName = "CantactManager"
+            BuildableName = "ContactManager"
+            BlueprintName = "ContactManager"
             ReferencedContainer = "container:ContactManager.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
